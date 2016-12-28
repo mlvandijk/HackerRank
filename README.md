@@ -1,2 +1,2 @@
 # HackerRank
-Some problems I've solved on HackerRank
+Code for / from HackerRank, including some problems I've solved and examples from tutorials.
