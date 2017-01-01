@@ -1,6 +1,9 @@
 package thirtyDaysOfCode;
 // https://www.hackerrank.com/challenges/30-running-time-and-complexity
-// Timeout on tc 7 & 8
+// Timeout on tc 7 & 8 => Fixed
+// Marit van Dijk
+// 1-1-2017
+// Status: Accepted
 
 import java.util.Scanner;
 
@@ -18,7 +21,7 @@ public class PrimeCheck {
 		if (n == 1) {
 			return "Not prime";
 		}
-	    for(int i = 2; 2 * i <= n; i++) {
+	    for(int i = 2; i * i <= n; i++) {
 	        if(n % i == 0)
 	            return "Not prime";
 	    }
